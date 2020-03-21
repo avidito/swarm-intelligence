@@ -3,14 +3,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn
 
-import utility.si_utility as usi
+import artificial_intelligence.toolbox as tb
 
 class ParticleSwarmOptimization():
 
     ############################################ BUILT-IN ##############################################
     # Class Initiator
     def __init__(self, function, size=100, ndim=2, min_val=-100.0, max_val=100.0, iteration=100,
-                 objective=usi.minimize, target=None, inertia=1.0, c1=2, c2=2, error_lim=1e-5):
+                 objective=tb.minimize, target=None, inertia=1.0, c1=2, c2=2, error_lim=1e-5):
         self._size = size
         self._ndim = ndim
         self._particle = self._init_particle(min_val, max_val)
@@ -24,7 +24,7 @@ class ParticleSwarmOptimization():
         self._gbest_val = 0.0
 
         interval = abs(max_val - min_val)
-        self._velocity = usi.interval_random(size, ndim, -(interval/10), interval/10)
+        self._velocity = tb.interval_random(size, ndim, -(interval/10), interval/10)
         self._min = min_val
         self._max = max_val
         self._inertia = inertia
@@ -44,7 +44,7 @@ class ParticleSwarmOptimization():
     ############################################# PRIVATE ##############################################
     # Fungsi Inisiasi Partikel
     def _init_particle(self, min_val, max_val):
-        val = usi.interval_random(self._size, self._ndim, min_val, max_val)
+        val = tb.interval_random(self._size, self._ndim, min_val, max_val)
         particle = np.array(val, np.float32)
         return particle
 
@@ -99,7 +99,7 @@ class ParticleSwarmOptimization():
         self._fitness = self._calculate_fitness()
         self._update_pbest()
         self._update_gbest()
-        vclip = np.vectorize(usi.value_clip)
+        vclip = np.vectorize(tb.value_clip)
 
         if show == True:
             plt.style.use('seaborn')
