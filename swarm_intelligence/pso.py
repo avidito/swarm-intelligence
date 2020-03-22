@@ -1,18 +1,3 @@
-# Particle Swarm Optimization
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn
-
-import artificial_intelligence.toolbox as tb
-
-# Particle Swarm Optimization
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn
-
-import artificial_intelligence.toolbox as tb
-
-# Particle Swarm Optimization
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn
