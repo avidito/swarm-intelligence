@@ -2,6 +2,7 @@ import numpy as np
 import artificial_intelligence.toolbox as tb
 
 class AntColonyOptimization():
+
     ############################################ BUILT-IN ##############################################
     # Class Initiator
     def __init__(self, distance,  origin, destination, size=100, iteration=100, pheromone_value=0.0,
