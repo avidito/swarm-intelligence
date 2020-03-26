@@ -4,6 +4,15 @@
 2. Ant Colony Optimization (ACO)
 3. Grey Wolf Optimization (GWO) 
 
+## Modul Dalam Pengembangan
+1. Firefly Algorithm (FA)
+2. Shark Search Algorithm (SSA)
+3. Bat Algorithm (BA)
+4. Artificial Bee Colony (ABC)
+5. Cuckoo Search Algorithm (CSA)
+6. Spotted Hyena Optimizer (SHO)
+7. Shuffled Frog-Leaping Algorithm (SFLA) 
+
 ## Referensi
 ### Particle Swarm Optimization (PSO)
 1. -
