@@ -1,3 +1,5 @@
 .ipynb_checkpoints
 *.ipynb
 testing.py
+/__pycache__
+__pycache__

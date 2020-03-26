@@ -1,5 +1,4 @@
 import numpy as np
-
 import swarm_intelligence.toolbox as tb
 
 class AntColonyOptimization():
