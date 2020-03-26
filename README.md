@@ -2,16 +2,7 @@
 ## Modul yang Tersedia
 1. Particle Swarm Optimization (PSO)
 2. Ant Colony Optimization (ACO)
-3. Grey Wolf Optimization (GWO)
-
-## Modul dalam Pengerjaan
-1. Firefly Algorithm (FA)
-2. Shark Search Algorithm (SSA)
-3. Bat Algorithm (BA)
-4. Artificial Bee Colony (ABC)
-5. Cuckoo Search Algorithm (CSA)
-6. Spotted Hyena Optimizer (SHO)
-7. Shuffled Frog-Leaping Algorithm (SFLA) 
+3. Grey Wolf Optimization (GWO) 
 
 ## Referensi
 ### Particle Swarm Optimization (PSO)
