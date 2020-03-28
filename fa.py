@@ -9,7 +9,7 @@ class FireflyAlgorithm():
     ############################################ BUILT-IN ##############################################
     # Class Initiator
     def __init__(self, function, size=100, ndim=2, min_value=-10.0, max_value=10.0, iteration=20,
-                 task=tb.minimize, alpha=0.25, gamma=0.9):
+                 task="minimize", alpha=0.25, gamma=0.9):
         self._size = size
         self._ndim = ndim
         self._min_value = min_value

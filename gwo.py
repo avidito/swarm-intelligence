@@ -9,7 +9,7 @@ class GreyWolfOptimization():
     ############################################ BUILT-IN ##############################################
     # Class Initatitor
     def __init__(self, function, size=100, ndim=2, min_value=-100.0, max_value=100.0, iteration=100,
-                 task=tb.minimize, target=None, error_lim=1e-5):
+                 task="minimize", target=None, error_lim=1e-5):
         self._function = function
         self._size = size
         self._ndim = 2

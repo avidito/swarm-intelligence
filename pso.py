@@ -9,7 +9,7 @@ class ParticleSwarmOptimization():
     ############################################ BUILT-IN ##############################################
     # Class Initiator
     def __init__(self, function, size=100, ndim=2, min_val=-100.0, max_val=100.0, iteration=100,
-                 task=tb.minimize, target=None, inertia=1.0, c1=2, c2=2, error_lim=1e-5):
+                 task="minimize", target=None, inertia=1.0, c1=2, c2=2, error_lim=1e-5):
         self._size = size
         self._ndim = ndim
         self._iteration = iteration

@@ -26,20 +26,24 @@ def calculate_fitness(objective, task, target=None):
             error += fitness[i]**2
         error = sqrt(error)
     vround = np.vectorize(round)
-    fitness = vround(task(fitness), 10)
-
+    fitness = vround(fitness, 10)
+    if task == "minimize":
+        fitness *= -1.0
     if target == None:
         return fitness
     else:
         return fitness, error
 
-# Interpretasi Maximize
-def maximize(val):
-    return abs(val)
+# Mencari nilai terbaik
+def find_best(arr):
+    best_idx = 0
+    best_val = arr[0]
 
-# Interpretasi Minimize
-def minimize(val):
-    return abs(1/(1+val))
+    for i in range(len(arr)):
+        if best_val < arr[i]:
+            best_idx = i
+            best_val = arr[i]
+    return best_idx
 
 # Pemotongan Nilai
 def value_clip(val, min_value, max_value):

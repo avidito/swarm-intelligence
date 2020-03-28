@@ -4,14 +4,14 @@
 2. Ant Colony Optimization (ACO)
 3. Grey Wolf Optimization (GWO)
 4. Firefly Algorithm (FA)
+5. Shark Search Optimization (SSO)
 
 ## Modul Dalam Pengembangan
-1. Shark Search Algorithm (SSA)
-2. Bat Algorithm (BA)
-3. Artificial Bee Colony (ABC)
-4. Cuckoo Search Algorithm (CSA)
-5. Spotted Hyena Optimizer (SHO)
-6. Shuffled Frog-Leaping Algorithm (SFLA)
+1. Bat Algorithm (BA)
+2. Artificial Bee Colony (ABC)
+3. Cuckoo Search Algorithm (CSA)
+4. Spotted Hyena Optimizer (SHO)
+5. Shuffled Frog-Leaping Algorithm (SFLA)
 
 ## Referensi
 ### Particle Swarm Optimization (PSO)
@@ -33,5 +33,9 @@
 
 ### Firefly Algorithm (FA)
 **Paper**
-1. Yang X-S. **Fireﬂy Algorithms for Multimodal Optimization**. doi:10.1007/978-3-642-04944-6_14.
-2. Johari NF, Zain AM, Mustaffa N, Udin A. **Firefly Algorithm for Optimization Problem**. doi:10.4028/www.scientific.net/AMM.421.512
+1. Yang X-S. 2009. **Fireﬂy Algorithms for Multimodal Optimization**. doi:10.1007/978-3-642-04944-6_14.
+2. Johari NF, Zain AM, Mustaffa N, Udin A. 2013. **Firefly Algorithm for Optimization Problem**. doi:10.4028/www.scientific.net/AMM.421.512
+
+### Shark Search Algorithm (SSA)
+**Paper**
+1. Mohammad-Azari S, Bozorg-Haddad O, Chu X. 2017. **Shark Smell Optimization (SSO) Algorithm**. doi:10.1007/978-981-10-5221-7_10 
