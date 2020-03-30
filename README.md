@@ -39,3 +39,7 @@
 ### Shark Search Algorithm (SSA)
 **Paper**
 1. Mohammad-Azari S, Bozorg-Haddad O, Chu X. 2017. **Shark Smell Optimization (SSO) Algorithm**. doi:10.1007/978-981-10-5221-7_10 
+
+### Bat Algorithm (BA)
+**Paper**
+1. Yang X-S. 2010. **A New Metaheuristic Bat-Inspired Algorithm**. doi:10.1007/978-3-642-12538-6_6.
